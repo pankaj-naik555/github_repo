@@ -62,16 +62,12 @@ pip install -r requirements.txt  # if you prepare one
 # Or manually install
 pip install pandas sqlalchemy matplotlib seaborn scipy
 
-
 ## 🚀 Usage
-
 ### Step 1: Ingest CSV Data
 ```bash
 python ingestion_db.py
-
 ###Step 2: Create Vendor Summary
 python get_vendor_summary.py
-
 ###Step 3: Run EDA & Visualization
 Launch Jupyter and open:
 Exploratory data analysis.ipynb
